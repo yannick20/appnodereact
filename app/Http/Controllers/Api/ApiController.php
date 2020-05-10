@@ -47,9 +47,9 @@ class ApiController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($token)
+    public function show($id)
     {
-        dd($token);
+        //
     }
 
     /**
