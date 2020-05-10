@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('testapirest', 'Api\ApiController@index');
+Route::get('testapirest/{token}', 'Api\ApiController@show');
